@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: baseline;
+  background-color: rgb(186, 194, 230);
+}
+.left{
+  width: 30px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.middle{
+  font-size: 30px;
+  color: rgb(12, 12, 12);
+  
+}
+
+.cart{
+  height: 35px;
+  margin-right: 10px;
+}
